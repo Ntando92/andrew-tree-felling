@@ -1,0 +1,78 @@
+
+
+body {
+    background-color: black;
+}
+
+.heading {
+    background-color: white;
+    height: 40px;
+    color: orangered;
+    align-items: center;
+    text-align: center;
+}
+
+.first-section h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100vw;
+}
+
+.intro-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url(/pexels-riku-keto-29614969_014911.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.intro-block-bottom {
+    background-color: black;
+}
+
+.intro-block-para1 {
+    color: white;
+    background-color: black;
+    font-size: 35px;
+    opacity: 55%;
+    width: 550px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 55px;
+}
+
+.intro-block-para2 {
+    color: orangered;
+    background-color: black;
+    font-size: 35px;
+    width: 550px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.third-section p {
+    width: 800px;
+}
