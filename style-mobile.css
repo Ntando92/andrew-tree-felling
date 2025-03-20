@@ -1,16 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-  font-family: "Montserrat";
+    font-family: "Montserrat";
 }
-
 
 body {
     background-color: black;
 }
+.black-space {
+    width: 100vw;
+    height: 27px;
+    background-color: black;
+    margin: 0px;
+    border-bottom: 0px;
+} 
 
-.heading h1{
+.call-now p {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    color: white;
+    font-weight: 500;
+    width: 100vw;
+    background: darkblue;
+    text-align: center;
+    align-items: center;
+    height: 32px;
+    border-top: 2px;
+    margin-top: 6px;
+    z-index: 1;
+}
+
+.heading h3{
     background-color: white;
-    height: 40px;
+    height: 45px;
     color: orangered;
     font-weight: 500;
     align-items: center;
@@ -24,6 +46,19 @@ body {
     width: 100vw;
 }
 
+.photo-rack {
+    align-items: center;
+    text-align: center;
+}
+
+.photo-rack img {
+   display: inline-block;
+   margin: 0px;
+   border: 0px;
+   height: 18vw;
+   width: 18vw;
+}
+
 .intro-block {
     display: flex;
     flex-direction: column;
@@ -35,6 +70,7 @@ body {
     width: 100vw;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: -1;
 }
 
 .intro-block-bottom {
@@ -79,9 +115,8 @@ body {
 }
 
 .second-section-para-group{
-    color: white;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     font-size: 20px;
     opacity: 65%;
     width: 75vw;
