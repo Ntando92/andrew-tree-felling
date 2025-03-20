@@ -24,19 +24,25 @@ body {
     background: darkblue;
     text-align: center;
     align-items: center;
-    height: 32px;
+    height: 35px;
+    font-size: 25px;
     border-top: 2px;
     margin-top: 6px;
     z-index: 1;
 }
 
 .heading h3{
+    display: flex;
+    justify-content: space-evenly;
     background-color: white;
-    height: 45px;
+    font-size: 23px;
+    height: 70px;
     color: orangered;
     font-weight: 500;
-    align-items: center;
     text-align: center;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 65px;
 }
 
 .first-section h1 {
@@ -44,19 +50,28 @@ body {
     background-color: black;
     text-align: center;
     width: 100vw;
+    border: solid;
+    border-width: 1px 0px;
+    border-color: darkblue;
 }
 
 .photo-rack {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
+    width: 100vw;
+    margin-bottom: 10px;
 }
 
 .photo-rack img {
    display: inline-block;
+   align-items: center;
+   text-align: center;
    margin: 0px;
    border: 0px;
-   height: 18vw;
-   width: 18vw;
+   height: 20vw;
+   width: 20vw;
 }
 
 .intro-block {
@@ -86,6 +101,9 @@ body {
     margin: 15px;
     padding: 25px;
     border-radius: 55px;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
     align-items: center;
     text-align: center;
 }
@@ -106,7 +124,7 @@ body {
     align-items: center;
     text-align: center;
     background-image: url(/pexels-karolina-grabowska-4206046_014748.jpg);
-    height: 65vh;
+    height: 70vh;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
@@ -122,16 +140,43 @@ body {
     width: 75vw;
     margin: 10px;
     padding: 20px;
+    padding-bottom: 10px;
     border-radius: 55px;
 }
 
 .third-section {
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     color: white;
+    width: 100vw;
 }
 
-.third-section p {
+.third-section-para-group {
+    color: white;
+    background-color: #151B54;
+    font-size: 20px;
+    opacity: 85%;
     width: 75vw;
+    margin: 20px;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 55px;
+    border: solid;
+    border-width: 1px;
+    border-color: whitesmoke;
+}
+
+.border-section {
+    height: 1px;
+    background-color: #3A3B3C;
+    width: 100vw;
+    opacity: 75%;
+}
+
+.footer-section {
+    color: white;
+    font-size: 8px;
+  
 }
