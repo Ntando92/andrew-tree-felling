@@ -212,3 +212,18 @@ body {
     text-align: center;
     margin-top: 5px;
 }
+
+.whatsapp-float-btn img {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.whatsapp-float-btn img:hover {
+  background-color: white;
+  border-radius: 85px;
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+  content: url("https://img.icons8.com/?size=100&id=TRtiP3z8pXb0&format=png&color=000000");
+}
